@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activites.DeviceBrowserActivity">
+
+    <include
+        android:id="@+id/my_toolbar"
+        layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/transcoding_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/transcoding_title"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/transcoding_iv_phone_icon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/transcoding_pb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/transcoding_pb"
+        android:contentDescription="@string/transcoding_iv_phone_icon_cd"
+        app:srcCompat="@drawable/phone_icon" />
+
+    <ProgressBar
+        android:id="@+id/transcoding_pb"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/transcoding_iv_cast_icon"
+        app:layout_constraintStart_toEndOf="@+id/transcoding_iv_phone_icon"
+        app:layout_constraintTop_toBottomOf="@+id/transcoding_tv_title" />
+
+    <ImageView
+        android:id="@+id/transcoding_iv_cast_icon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/transcoding_pb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/transcoding_pb"
+        android:contentDescription="@string/transcoding_iv_cast_icon_cd"
+        app:srcCompat="@drawable/cast_icon" />
+
+    <TextView
+        android:id="@+id/transcoding_tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transcoding_pb"
+        android:text="@string/transcoding_buffering_status"/>
+
+</android.support.constraint.ConstraintLayout>

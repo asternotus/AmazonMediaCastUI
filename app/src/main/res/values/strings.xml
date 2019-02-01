@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">AmazonMediaCaster</string>
+
+    <string name="device_browser_title">Choose your device</string>
+    <string name="device_browser_hint">Connect your Amazon device to the TV and check the internet connection.\n\n
+    Tap refresh button to update the device list.</string>
+    <string name="device_browser_iv_refresh_cd">Refresh</string>
+    <string name="device_browser_device_is_found">device is found</string>
+
+    <string name="transcoding_title">The media is transcoding, please wait</string>
+    <string name="transcoding_buffering_status">Buffered...</string>
+    <string name="transcoding_iv_phone_icon_cd">PhoneIcon</string>
+    <string name="transcoding_iv_cast_icon_cd">CastIcon</string>
+
+    <string name="error_title">THE ERROR OCCURED</string>
+    <string name="error_device_connection_error_hint">Check the device connection and try again</string>
+    <string name="error_iv_connection_error_cd">ConnectionError</string>
+
+    <string name="settings_main_settings">MAIN SETTINGS</string>
+    <string name="settings_enable_transcoding">Enable transcoding</string>
+    <string name="settings_enable_conversion">Enable conversion</string>
+    <string name="settings_save_cache_data">Save cache data</string>
+    <string name="settings_theme_colors">THEME COLORS</string>
+    <string name="settings_warm_theme">Warm</string>
+    <string name="settings_cold_theme">Cold</string>
+    <string name="settings_gray_theme">Gray</string>
+
+    <string name="cast_start">Start</string>
+    <string name="cast_pause">Pause</string>
+    <string name="cast_stop">Stop</string>
+
+    <string name="menu_settings">Settings</string>
+</resources>
