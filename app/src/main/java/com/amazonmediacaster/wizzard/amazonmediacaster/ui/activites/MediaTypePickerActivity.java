@@ -3,10 +3,12 @@ package com.amazonmediacaster.wizzard.amazonmediacaster.ui.activites;
 import android.arch.lifecycle.ViewModelProviders;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.GridView;
 
 import com.amazonmediacaster.wizzard.amazonmediacaster.R;
 import com.amazonmediacaster.wizzard.amazonmediacaster.ui.activites.interfaces.IMediaTypePickerScreenView;
@@ -14,15 +16,22 @@ import com.amazonmediacaster.wizzard.amazonmediacaster.ui.activites.presenters.C
 import com.amazonmediacaster.wizzard.amazonmediacaster.ui.activites.presenters.MediaTypePickerPresenter;
 import com.amazonmediacaster.wizzard.amazonmediacaster.ui.activites.presenters.factories.PresenterFactory;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class MediaTypePickerActivity extends AppCompatActivity implements IMediaTypePickerScreenView {
 
     private MediaTypePickerPresenter mediaTypePickerPresenter;
     private Toolbar myToolbar;
 
+    @BindView(R.id.media_type_picker_screen_gv_mediatype_list)
+    GridView media_type_picker_screen_gv_mediatype_list;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_media_type_picker);
+        ButterKnife.bind(this);
 
         toolbarSetup();
 

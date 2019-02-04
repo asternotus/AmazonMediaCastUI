@@ -30,4 +30,6 @@
     <string name="cast_stop">Stop</string>
 
     <string name="menu_settings">Settings</string>
+
+    <string name="default_text">Something default text</string>
 </resources>

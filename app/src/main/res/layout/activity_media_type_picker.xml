@@ -11,6 +11,7 @@
         layout="@layout/toolbar" />
 
     <GridView
+        android:id="@+id/media_type_picker_screen_gv_mediatype_list"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"

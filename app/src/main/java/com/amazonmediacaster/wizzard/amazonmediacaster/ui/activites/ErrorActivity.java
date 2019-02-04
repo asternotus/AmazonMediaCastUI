@@ -7,6 +7,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.amazonmediacaster.wizzard.amazonmediacaster.R;
 import com.amazonmediacaster.wizzard.amazonmediacaster.ui.activites.interfaces.IErrorScreenView;
@@ -14,15 +16,28 @@ import com.amazonmediacaster.wizzard.amazonmediacaster.ui.activites.presenters.C
 import com.amazonmediacaster.wizzard.amazonmediacaster.ui.activites.presenters.ErrorPresenter;
 import com.amazonmediacaster.wizzard.amazonmediacaster.ui.activites.presenters.factories.PresenterFactory;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class ErrorActivity extends AppCompatActivity implements IErrorScreenView {
 
     private ErrorPresenter errorPresenter;
     private Toolbar myToolbar;
 
+    @BindView(R.id.error_screen_tv_title)
+    TextView error_screen_tv_title;
+
+    @BindView(R.id.error_screen_tv_hint)
+    TextView error_screen_tv_hint;
+
+    @BindView(R.id.error_iv_connection_error)
+    ImageView error_iv_connection_error;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_error);
+        ButterKnife.bind(this);
 
         toolbarSetup();
 

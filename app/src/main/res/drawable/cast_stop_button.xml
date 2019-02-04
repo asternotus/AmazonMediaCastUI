@@ -2,7 +2,7 @@
     <!-- disable state. -->
     <item android:state_enabled="false">
         <shape android:shape="rectangle">
-            <corners android:radius="32dp"/>
+            <corners android:radius="12dp"/>
             <solid android:color="@color/color_cast_stop_button"/>
         </shape>
     </item>
@@ -10,7 +10,7 @@
     <!--released state. -->
     <item android:state_pressed="false">
         <shape android:shape="rectangle">
-            <corners android:radius="32dp"/>
+            <corners android:radius="12dp"/>
             <solid android:color="@color/color_cast_stop_button"/>
         </shape>
     </item>
