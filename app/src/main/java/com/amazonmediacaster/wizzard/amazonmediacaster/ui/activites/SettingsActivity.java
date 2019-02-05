@@ -29,31 +29,31 @@ public class SettingsActivity extends AppCompatActivity implements ISettingsScre
     private Toolbar myToolbar;
 
     @BindView(R.id.settings_screen_tv_main_settings)
-    TextView settings_screen_tv_main_settings;
+    TextView tv_main_settings;
 
     @BindView(R.id.settings_screen_sw_transcoding)
-    Switch settings_screen_sw_transcoding;
+    Switch sw_transcoding;
 
     @BindView(R.id.settings_screen_sw_conversion)
-    Switch settings_screen_sw_conversion;
+    Switch sw_conversion;
 
     @BindView(R.id.settings_screen_sw_cache)
-    Switch settings_screen_sw_cache;
+    Switch sw_cache;
 
     @BindView(R.id.settings_screen_tv_theme_colors)
-    TextView settings_screen_tv_theme_colors;
+    TextView tv_theme_colors;
 
     @BindView(R.id.settings_screen_rb_group)
-    RadioGroup settings_screen_rb_group;
+    RadioGroup rb_group;
 
     @BindView(R.id.settings_screen_rb_warm)
-    RadioButton settings_screen_rb_warm;
+    RadioButton rb_warm;
 
     @BindView(R.id.settings_screen_rb_cold)
-    RadioButton settings_screen_rb_cold;
+    RadioButton rb_cold;
 
     @BindView(R.id.settings_screen_rb_gray)
-    RadioButton settings_screen_rb_gray;
+    RadioButton rb_gray;
 
 
     @Override

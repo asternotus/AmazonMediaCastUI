@@ -26,16 +26,16 @@ public class CastActivity extends AppCompatActivity implements ICastScreenView {
     private CastPresenter castPresenter;
 
     @BindView(R.id.cast_screen_btn_stop)
-    Button cast_screen_btn_stop;
+    Button btn_stop;
 
     @BindView(R.id.cast_screen_tv_name)
-    TextView cast_screen_tv_name;
+    TextView tv_name;
 
     @BindView(R.id.cast_screen_vv_video)
-    VideoView cast_screen_vv_video;
+    VideoView vv_video;
 
     @BindView(R.id.cast_screen_btn_pause)
-    Button cast_screen_btn_pause;
+    Button btn_pause;
 
 
 

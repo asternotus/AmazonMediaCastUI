@@ -28,20 +28,20 @@ public class TranscodingActivity extends AppCompatActivity implements ITranscodi
     private ITranscodingPresenter transcodingPresenter;
     private Toolbar myToolbar;
 
-    @BindView(R.id.transcoding_tv_title)
-    TextView transcoding_tv_title;
+    @BindView(R.id.transcoding_screen_tv_title)
+    TextView tv_title;
 
-    @BindView(R.id.transcoding_iv_phone_icon)
-    ImageView transcoding_iv_phone_icon;
+    @BindView(R.id.transcoding_screen_iv_phone_icon)
+    ImageView phone_icon;
 
-    @BindView(R.id.transcoding_pb)
-    ProgressBar transcoding_pb;
+    @BindView(R.id.transcoding_screen_progressbar)
+    ProgressBar progressbar;
 
-    @BindView(R.id.transcoding_iv_cast_icon)
-    ImageView transcoding_iv_cast_icon;
+    @BindView(R.id.transcoding_screen_iv_cast_icon)
+    ImageView iv_cast_icon;
 
-    @BindView(R.id.transcoding_tv_status)
-    TextView transcoding_tv_status;
+    @BindView(R.id.transcoding_screen_tv_status)
+    TextView tv_status;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

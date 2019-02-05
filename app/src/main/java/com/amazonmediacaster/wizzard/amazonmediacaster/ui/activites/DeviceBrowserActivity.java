@@ -26,19 +26,19 @@ public class DeviceBrowserActivity extends AppCompatActivity implements IDeviceB
     private Toolbar myToolbar;
 
     @BindView(R.id.device_browser_screen_tv_title)
-    TextView device_browser_screen_tv_title;
+    TextView tv_title;
 
     @BindView(R.id.device_browser_screen_tv_hint)
-    TextView device_browser_screen_tv_hint;
+    TextView tv_hint;
 
     @BindView(R.id.device_browser_screen_iv_refresh)
-    ImageView device_browser_screen_iv_refresh;
+    ImageView iv_refresh;
 
     @BindView(R.id.device_browser_screen_tv_device_is_found)
-    TextView device_browser_screen_tv_device_is_found;
+    TextView tv_device_is_found;
 
     @BindView(R.id.device_browser_screen_rv_device_list)
-    RecyclerView device_browser_screen_rv_device_list;
+    RecyclerView rv_device_list;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

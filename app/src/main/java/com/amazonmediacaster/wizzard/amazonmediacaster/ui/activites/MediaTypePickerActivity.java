@@ -25,7 +25,7 @@ public class MediaTypePickerActivity extends AppCompatActivity implements IMedia
     private Toolbar myToolbar;
 
     @BindView(R.id.media_type_picker_screen_gv_mediatype_list)
-    GridView media_type_picker_screen_gv_mediatype_list;
+    GridView gv_mediatype_list;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

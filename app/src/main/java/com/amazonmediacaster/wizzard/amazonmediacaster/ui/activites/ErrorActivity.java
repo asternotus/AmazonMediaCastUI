@@ -25,13 +25,13 @@ public class ErrorActivity extends AppCompatActivity implements IErrorScreenView
     private Toolbar myToolbar;
 
     @BindView(R.id.error_screen_tv_title)
-    TextView error_screen_tv_title;
+    TextView tv_title;
 
     @BindView(R.id.error_screen_tv_hint)
-    TextView error_screen_tv_hint;
+    TextView tv_hint;
 
-    @BindView(R.id.error_iv_connection_error)
-    ImageView error_iv_connection_error;
+    @BindView(R.id.error_screen_iv_connection_error)
+    ImageView iv_connection_error;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -24,7 +24,7 @@ public class MediaPickerActivity extends AppCompatActivity implements IMediaPick
     private Toolbar myToolbar;
 
     @BindView(R.id.media_picker_screen_rv_media_list)
-    RecyclerView media_picker_screen_rv_media_list;
+    RecyclerView rv_media_list;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
