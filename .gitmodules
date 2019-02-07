@@ -1,0 +1,3 @@
+[submodule "AmazonCastSDK"]
+	path = AmazonCastSDK
+	url = https://github.com/asternotus/AmazonCastSDK.git
