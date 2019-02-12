@@ -1,1 +1,6 @@
-include ':app'
+include ':app',
+        ':AmazonCastSDK:connect-sdk-wrapper:connect-sdk',
+        ':AmazonCastSDK:connect-sdk-wrapper:connectsdkwrapper',
+        ':AmazonCastSDK:connect-sdk-wrapper:samsunglegacymultiscreen',
+        ':AmazonCastSDK:connect-sdk-wrapper:samsungmultiscreen',
+        ':AmazonCastSDK:connect-sdk-wrapper:simplejson'
