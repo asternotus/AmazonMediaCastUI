@@ -3,4 +3,9 @@ include ':app',
         ':AmazonCastSDK:connect-sdk-wrapper:connectsdkwrapper',
         ':AmazonCastSDK:connect-sdk-wrapper:samsunglegacymultiscreen',
         ':AmazonCastSDK:connect-sdk-wrapper:samsungmultiscreen',
-        ':AmazonCastSDK:connect-sdk-wrapper:simplejson'
+        ':AmazonCastSDK:connect-sdk-wrapper:simplejson',
+        ':AmazonCastSDK:KudosUtils',
+        ':AmazonCastSDK:kudos-cast',
+        ':AmazonCastSDK:ffmpeg-media-transcoding:FFmpegAndroid',
+        ':AmazonCastSDK:ffmpeg-media-transcoding:ffmpegtranscoding',
+        ':AmazonCastSDK:local-media-sharing'

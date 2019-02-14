@@ -8,9 +8,19 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/ /AmazonCastSDK" />
-            <option value="$PROJECT_DIR$/ /AmazonCastSDK/connect-sdk-wrapper" />
-            <option value="$PROJECT_DIR$/ /AmazonCastSDK/connect-sdk-wrapper/connect-sdk" />
+            <option value="$PROJECT_DIR$/AmazonCastSDK" />
+            <option value="$PROJECT_DIR$/AmazonCastSDK/KudosUtils" />
+            <option value="$PROJECT_DIR$/AmazonCastSDK/connect-sdk-wrapper" />
+            <option value="$PROJECT_DIR$/AmazonCastSDK/connect-sdk-wrapper/connect-sdk" />
+            <option value="$PROJECT_DIR$/AmazonCastSDK/connect-sdk-wrapper/connectsdkwrapper" />
+            <option value="$PROJECT_DIR$/AmazonCastSDK/connect-sdk-wrapper/samsunglegacymultiscreen" />
+            <option value="$PROJECT_DIR$/AmazonCastSDK/connect-sdk-wrapper/samsungmultiscreen" />
+            <option value="$PROJECT_DIR$/AmazonCastSDK/connect-sdk-wrapper/simplejson" />
+            <option value="$PROJECT_DIR$/AmazonCastSDK/ffmpeg-media-transcoding" />
+            <option value="$PROJECT_DIR$/AmazonCastSDK/ffmpeg-media-transcoding/FFmpegAndroid" />
+            <option value="$PROJECT_DIR$/AmazonCastSDK/ffmpeg-media-transcoding/ffmpegtranscoding" />
+            <option value="$PROJECT_DIR$/AmazonCastSDK/kudos-cast" />
+            <option value="$PROJECT_DIR$/AmazonCastSDK/local-media-sharing" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

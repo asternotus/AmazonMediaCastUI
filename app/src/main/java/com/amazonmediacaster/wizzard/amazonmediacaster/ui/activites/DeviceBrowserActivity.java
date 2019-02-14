@@ -16,6 +16,7 @@ import com.amazonmediacaster.wizzard.amazonmediacaster.ui.activites.interfaces.I
 import com.amazonmediacaster.wizzard.amazonmediacaster.ui.activites.presenters.DeviceBrowserPresenter;
 import com.amazonmediacaster.wizzard.amazonmediacaster.ui.activites.presenters.factories.PresenterFactory;
 import com.amazonmediacaster.wizzard.amazonmediacaster.ui.activites.presenters.interfaces.IDeviceBrowserPresenter;
+import com.megacast.castsdk.model.ImageDescription;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
